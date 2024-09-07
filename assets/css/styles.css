@@ -1,0 +1,41 @@
+/* Adjust card styling for vacation requests */
+.card {
+    margin-bottom: 20px;
+  }
+  
+  /* Center card content on mobile for vacation requests */
+  @media (max-width: 768px) {
+    .card-body {
+      text-align: center;
+    }
+    .btn {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Highlight the active navbar link */
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+  }
+  
+  /* Make the navbar background green */
+.navbar {
+    background-color: #1d7431; /* اللون الأخضر */
+  }
+  
+  /* Make the navbar links white */
+  .navbar .nav-link {
+    color: white !important;
+  }
+  
+  /* Change the hover color of navbar links */
+  .navbar .nav-link:hover {
+    color: #cce5ff !important; /* لون عند المرور بالفأرة */
+  }
+  
+  /* Make the brand text white */
+  .navbar .navbar-brand {
+    color: white !important;
+  }
+  
